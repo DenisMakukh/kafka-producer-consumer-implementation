@@ -11,7 +11,6 @@ public class SpringBootProducerApplication implements CommandLineRunner {
         SpringApplication.run(SpringBootProducerApplication.class);
     }
 
-    @Autowired
     private WikimediaChangesProducer wikimediaChangesProducer;
 
     @Override
